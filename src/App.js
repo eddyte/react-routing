@@ -10,7 +10,7 @@ class App extends Component {
             <BrowserRouter>
               <div>
                 <NavLink exact to="/"> Accueil </NavLink>
-                <NavLink to="/notre-histoire"> Notre histoire </NavLink>
+                <NavLink to="/notre-histoire" activeClassName="selected"> Notre histoire </NavLink>
 
                 <Switch>
                   <Route exact path="/" component={Home} />
